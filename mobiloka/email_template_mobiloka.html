@@ -1,0 +1,395 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Flower Studio - Newsletter</title>
+        <style type="text/css">
+			/* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
+			#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+			.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+			.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+			body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;list-style-type: none;} /* Prevent WebKit and Windows mobile changing default text sizes */
+			table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+			table{border-collapse: collapse; border-spacing: 0; margin:0; padding:0;}
+			img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+			/* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
+			body{
+				margin:0;
+				padding:0;
+				font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+			}
+			img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+			table{border-collapse:collapse !important;}
+			body{height:100% !important; margin:0; padding:0; width:100% !important;}
+			h1 {
+			    font-size: 45px;
+			    font-weight: normal;
+			    margin:0 0 0 0;
+			    padding:0 0 0 0;
+			}
+			h2 {
+			    font-size: 32px;
+			    font-weight: bold;
+			    margin:0px 0 0px 0;
+			    padding:0 0 0 0;
+			}
+			h3 {
+			    font-size: 20px;
+			    font-weight: normal;
+			    margin: 3px 0;
+			    padding:0;
+			}
+			h4 {
+				color:#2e83b8;
+			    font-size: 18px;
+			    line-height: 22px;
+			    font-weight: normal;
+			    margin:0px 0px 0px 0px;
+			}
+			h5 {
+				color:#2e83b8;
+			    font-size: 16px;
+			    font-weight: normal;
+			    line-height: 22px;
+			    margin:0 0 0 0;
+			    padding:0 0 0 0;
+			}
+			a {
+				color:#2e83b8;
+				font-size: 14px;
+			    text-decoration: none;
+			}
+			label{
+			    font-family: 'Avenir-medium';
+			    font-size: 16px;
+			    color:#000;
+			}
+			article p{   
+		        font-size: 14px;
+		        /*line-height: 22px;*/
+			}
+			ul{
+				padding: 0 1em;
+			}
+			ul li{
+			            
+			}
+			p {
+				color:#58595b;
+			    font-size: 14px;
+			    margin:0;
+			    line-height: 20px;
+			}
+			small {
+			    font-size: 14px;
+			    line-height: 20px;
+			}
+			hr{
+				border-top:1px solid #ccc;
+				border-right:none;
+				border-bottom:none;
+				border-left:none;
+				margin:20px 0;
+			}
+
+			/* /\/\/\/\/\/\/\/\/ TEMPLATE STYLES /\/\/\/\/\/\/\/\/ */
+			#bodyTable{
+				width: 600px;
+			}
+			.container--header td{
+				padding:20px 22px;
+			}
+			.container--body td{
+				padding:0px 22px;
+			}
+
+			/*custom*/
+			.grid__content__wrapper{
+				width:130px;
+				float:left;
+				margin:18px 11px 0 0;
+				padding:0 !important;
+			}
+			.grid__content__wrapper:nth-child(4),
+			.grid__content__wrapper:nth-child(8),
+			.grid__content__wrapper:nth-child(12),
+			.grid__content__wrapper:nth-child(16),
+			.grid__content__wrapper:nth-child(20){
+				margin:18px 0 0 0;
+			}
+			.grid__content__wrapper .grid__content--img{
+				width:132px; 
+				height:132px; 
+				background:#dfe0df;
+				border: none;
+			}			
+			.grid__content__wrapper h4{
+				margin:15px 0 5px 0;
+			}
+			.grid__content__wrapper p{
+				display: initial;
+				line-height: 20px;
+			}
+			.grid__content__wrapper a{
+				font-style: italic;
+			}
+			.blog__content__wrapper .blog__content--img{
+				width:272px;
+				height:153px;
+				background:#dfe0df;
+			}
+
+			.blog__content__wrapper{
+				float:left;
+				width: 49%;
+				margin:0 2% 0 0;
+				padding:0 !important;
+			}
+			.blog__content__wrapper:nth-child(2){
+				margin:0 0 0 0;
+			}
+			.blog__content__wrapper h4{
+				margin:5px 0 0 0;
+			}
+			.blog__content__wrapper hr{
+				border:none;
+				border-top:2px solid #2e83b8;
+				margin:10px 0;
+			}
+			.blog__content__wrapper p{
+				display: initial;
+			}
+			.blog__content__wrapper a{
+				font-size: 9px;
+				padding: 4px 6px 2px 6px;
+				background:#2e83b8;
+				color:#fff;
+			}
+
+			/*footer*/
+			.footer__wrapper{
+				width:49%;
+				margin:0 2% 0 0;	
+				padding:0 !important;
+			}
+			.footer__wrapper:nth-child(2){
+				margin:0 0 0 0;
+			}
+			.footer__wrapper .ads--img{
+				width:272px;
+				min-height:100px;
+				background:#dfe0df;							
+			}
+			.footer__wrapper .sosmed__wrapper{
+				display: inline-block;
+				width:65%;
+				float:left;
+				text-align: left;
+				padding-left:6px;
+			}
+			.footer__wrapper .sosmed__wrapper ul{
+				padding:0;
+			}
+			.footer__wrapper .sosmed__wrapper p{
+				margin-top:26px;
+			}
+			.footer__wrapper .sosmed__wrapper ul li{
+				width:25px;
+				float:left;
+				margin:0 8px 0 0;
+			}	
+			.footer__wrapper .logo__art__wrapper{
+				display: inline-block;
+				width:30%;
+				float:left;
+				text-align: right;
+			}		
+			.container--footer td{
+				padding:30px 0;
+				text-align: center;
+				line-height: 20px;
+			}
+			.container--footer td p{
+				color:#aeacac;
+			}
+			.container--footer ul{
+				margin:0 auto;
+				width:105px; 
+			}
+			.container--footer ul li{
+				float:left;
+				width:30px;
+				margin:0px 0px 0px 5px;
+			}
+		</style>
+    </head>
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+    	<center>
+    		<!-- header -->
+        	<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+        		<tr class="container--header" style="width:100%;">
+        			<td align="left">
+        				<img src="images/logo--mobiloka.png" alt="" />        					 				
+        			</td>
+        			<td align="right" valign="bottom">
+        				<h1 style="color:#98b6d6;font-weight:100;">Newsletter</h1>    
+        			</td>   			
+        		</tr>
+        	</table>
+
+        	<!-- body -->
+        	<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+            	<tr class="container--body">
+                	<td align="center"><img src="images/line--shadow.png"></td>	
+                </tr>
+            </table>
+            <br>
+            <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+        		<tr class="container--body" style="width:100%;">
+        			<td align="left" valign="bottom">
+        				<h2 style="color:#2e83b8;">Best of The Week</h2>        					 				
+        			</td>
+        			<td align="right" valign="bottom">
+        				<h3 style="color:#949699;font-weight:100;">15 <b>Februari</b> 2015</h3>    
+        			</td>   			
+        		</tr>
+        	</table>
+        	<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+        		<tr class="container--body" style="width:100%;">
+        			<td>
+        				<table>
+        					<tr>
+        						<!-- grid content -->
+        						<td class="grid__content__wrapper">
+			        				<img class="grid__content--img" src="" style="">
+			        				<h4><b>Cashing in on the Qashqai</b></h4>
+			        				<p>Nissan banks on 1.2 litre version.</p><a href=""> More. <img class="icon--more" src="images/icon--more.png"></a>
+			        			</td>
+			        			<!-- grid content -->
+        						<td class="grid__content__wrapper">
+			        				<img class="grid__content--img" src="" style="">
+			        				<h4><b>Cashing in on the Qashqai</b></h4>
+			        				<p>Nissan banks on 1.2 litre version.</p><a href=""> More. <img class="icon--more" src="images/icon--more.png"></a>
+			        			</td>
+			        			<!-- grid content -->
+        						<td class="grid__content__wrapper">
+			        				<img class="grid__content--img" src="" style="">
+			        				<h4><b>Cashing in on the Qashqai</b></h4>
+			        				<p>Nissan banks on 1.2 litre version.</p><a href=""> More. <img class="icon--more" src="images/icon--more.png"></a>
+			        			</td>
+			        			<!-- grid content -->
+        						<td class="grid__content__wrapper">
+			        				<img class="grid__content--img" src="" style="">
+			        				<h4><b>Cashing in on the Qashqai</b></h4>
+			        				<p>Nissan banks on 1.2 litre version.</p><a href=""> More. <img class="icon--more" src="images/icon--more.png"></a>
+			        			</td>
+			        			<!-- grid content -->
+        						<td class="grid__content__wrapper">
+			        				<img class="grid__content--img" src="" style="">
+			        				<h4><b>Cashing in on the Qashqai</b></h4>
+			        				<p>Nissan banks on 1.2 litre version.</p><a href=""> More. <img class="icon--more" src="images/icon--more.png"></a>
+			        			</td>
+			        			<!-- grid content -->
+        						<td class="grid__content__wrapper">
+			        				<img class="grid__content--img" src="" style="">
+			        				<h4><b>Cashing in on the Qashqai</b></h4>
+			        				<p>Nissan banks on 1.2 litre version.</p><a href=""> More. <img class="icon--more" src="images/icon--more.png"></a>
+			        			</td>
+        					</tr>
+        				</table>
+        			</td>		
+        		</tr>
+        	</table>
+        	<br><br><br><br>
+        	<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+        		<tr class="container--body" style="width:100%;">
+        			<td align="left">
+        				<h2 style="color:#2e83b8;">Blog Contents</h2><br>        					 				
+        			</td>  			
+        		</tr>
+        	</table>
+        	<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+        		<tr class="container--body" style="width:100%;">
+        			<td>
+        				<table>
+        					<tr>
+        						<td class="blog__content__wrapper" align="left">
+			        				<img class="blog__content--img" src="">        					 				
+			        			</td>
+			        			<td class="blog__content__wrapper" align="left" valign="bottom">
+			        				<h4>Find out what cars like yours sell for on Mobiloka. We will recommend a sale price for you.</h4>
+			        				<hr>
+			        				<p>Mobiloka cars price is based on market information, including current trade and retail values.</p> <a href="">READ MORE</a>    
+			        			</td>  
+        					</tr>
+        				</table>
+        			</td> 			
+        		</tr>
+        	</table>
+        	<br><br>
+        	<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+            	<tr class="container--body">
+                	<td align="center"><img src="images/line--shadow.png"></td>	
+                </tr>
+            </table>
+            <br>
+
+            <!-- footer -->
+            <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+        		<tr class="container--body" style="width:100%;">
+        			<td>
+        				<table>
+        					<tr>
+        						<td class="footer__wrapper" align="left">
+			        				<img class="ads--img" src="">        					 				
+			        			</td>
+			        			<td class="footer__wrapper" align="right">
+			        				<img class="ads--img" src="">        					 				
+			        			</td>
+        					</tr>
+        				</table>
+        			</td> 			
+        		</tr>
+        	</table>
+        	<br>
+        	<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+        		<tr class="container--body" style="width:100%;">
+        			<td>
+        				<table width="100%">
+        					<tr>
+        						<td class="footer__wrapper" align="left">
+			        				<p>
+			        					Browse over 25.000 new, used &amp;<br> 
+			        					rental cars and commercial vehicles.<br>
+			        					<b>www.mobiloka.com</b><br> 
+			        					To unsubscribe, please click <a href="">here.</a>
+			        				</p>       					 				
+			        			</td>
+			        			<td class="footer__wrapper" align="right">
+			        				<div class="sosmed__wrapper">
+			        					<p>Stalk us at:</p>
+			        					<ul>
+							            	<li><a href="" target="_blank"><img src="images/icon--fb.png" alt="" /></a></li>
+							            	<li><a href="" target="_blank"><img src="images/icon--twit.png" alt="" /></a></li>
+							            	<li><a href="" target="_blank"><img src="images/icon--instagram.png" alt="" /></a></li>
+							            </ul>
+			        				</div>
+			        				<div class="logo__art__wrapper">
+			        					<img src="images/logo--art.png" alt="" />
+			        				</div>   					 				
+			        			</td>
+        					</tr>
+        				</table>
+        			</td> 			
+        		</tr>
+        	</table>
+        	<br>
+            <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+            	<tr class="container--body">
+                	<td align="center"><img src="images/line--strip.jpg"></td>	
+                </tr>
+            </table>           
+        </center>
+    </body>
+</html>

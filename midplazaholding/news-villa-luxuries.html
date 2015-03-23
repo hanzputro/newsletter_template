@@ -1,0 +1,641 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Ayana &amp; Rimba - Newsletter</title>
+        <style type="text/css">
+			/* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
+			#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+			.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+			.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+			body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;list-style-type: none;} /* Prevent WebKit and Windows mobile changing default text sizes */
+			table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+			img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+			/* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
+			body{margin:0; padding:0;}
+			img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+			table{border-collapse:collapse !important;}
+			body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
+
+			/* /\/\/\/\/\/\/\/\/ TEMPLATE STYLES /\/\/\/\/\/\/\/\/ */
+
+			/* ========== Page Styles ========== */
+
+			#bodyCell{padding:10px 0px;}
+			#templateContainer{width:585px;background:#fff;}
+
+			/**
+			* @tab Page
+			* @section background style
+			* @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+			* @theme page
+			*/
+			body, #bodyTable{
+				/*@editable background:#fff; */
+			}
+
+			/**
+			* @tab Page
+			* @section background style
+			* @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+			* @theme page
+			*/
+			#bodyCell{
+				/*@editable*/ border-top:4px solid #fff;
+			}
+
+			/**
+			* @tab Page
+			* @section email border
+			* @tip Set the border for your email.
+			*/
+			#templateContainer{
+				/*@editable*/ border:1px solid #f1f1f1;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 1
+			* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+			* @style heading 1
+			*/
+			a{
+				text-decoration: none;
+			}
+			p{
+				/*@editable*/ color:#414042 !important;
+				display:block;
+				/*@editable*/ font-family: arial;
+				/*@editable*/ font-size:11px;
+				/*@editable*/ font-style:normal;
+				/*@editable*/ line-height:17px;
+				/*@editable*/ letter-spacing:normal;
+			}
+			h1{
+				/*@editable*/ color:#a79675 !important;
+				display:block;
+				/*@editable*/ font-family: TimesNewRoman;
+				/*@editable*/ font-size:34px;
+				/*@editable*/ font-style:normal;
+				/*@editable*/ font-weight:700;
+				/*@editable*/ line-height:normal;
+				/*@editable*/ letter-spacing:0.5px;
+				margin:10px 0px 0px 0px;
+			}
+
+			h5{
+				/*@editable*/ color:#a79675 !important;
+				display:block;
+				/*@editable*/ font-family: Arial;
+				/*@editable*/ font-size:17px;
+				/*@editable*/ font-style:normal;
+				font-weight:100;
+				/*@editable*/ letter-spacing:normal;
+				margin:0px 0px 0px 0px;
+			}
+
+			/* ========== Header Styles ========== */
+
+			/**
+			* @tab Header
+			* @section preheader style
+			* @tip Set the background color and bottom border for your email's preheader area.
+			* @theme header
+			*/
+			#templatePreheader{
+				/*@editable*/ background-color:#fff;
+				/*@editable*/ border-bottom:1px solid #fff;
+			}
+
+			/**
+			* @tab Header
+			* @section preheader text
+			* @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+			*/
+			.preheaderContent{
+				/*@editable*/ color:#808080;
+				/*@editable*/ font-family:arial;
+				/*@editable*/ font-size:9px;
+				/*@editable*/ line-height:125%;
+				/*@editable*/ text-align:left;
+							  padding: 0px 20px;
+			}
+
+			/**
+			* @tab Header
+			* @section preheader link
+			* @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+			*/
+			.preheaderContent a:link, .preheaderContent a:visited, /* Yahoo! Mail Override */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#606060;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:none;
+			}
+			.preheaderContent--ul{
+				width:88px;
+				float:right;
+				margin:0;
+				list-style: none;
+			}
+			.preheaderContent--ul > .preheaderContent--li{
+				float:left;
+				margin:0 2px;
+				padding:0;
+			}
+			.preheaderContent--ul > .preheaderContent--li > .preheaderContent--a{
+				display: block;
+			}
+
+
+			/**
+			* @tab Header
+			* @section header style
+			* @tip Set the background color and borders for your email's header area.
+			* @theme header
+			*/
+			#templateHeader{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-top:1px solid #FFFFFF;
+				/*@editable*/ border-bottom:1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Header
+			* @section header text
+			* @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+			*/
+			.headerContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:20px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ padding-top:0;
+				/*@editable*/ padding-right:0;
+				/*@editable*/ padding-bottom:0;
+				/*@editable*/ padding-left:0;
+				/*@editable*/ text-align:left;
+				/*@editable*/ vertical-align:middle;
+			}
+
+			/**
+			* @tab Header
+			* @section header link
+			* @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+			*/
+			.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			#headerImage{
+				height:auto;
+				max-width:100%;
+			}
+
+			/* ========== Body Styles ========== */
+
+			/**
+			* @tab Body
+			* @section body style
+			* @tip Set the background color and borders for your email's body area.
+			*/
+			#templateBody{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-top:1px solid #FFFFFF;
+				/*@editable*/ border-bottom:1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Body
+			* @section body text
+			* @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+			* @theme main
+			*/
+			
+			.bodyContent{
+				/*@editable*/ color:#fff;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:16px;
+				/*@editable*/ line-height:150%;
+				padding:0px 20px;
+				/*@editable*/ text-align:left;
+			}
+			.bodyContent-img{
+				border-top: 4px solid #a79575;
+			}
+
+			/**
+			* @tab Body
+			* @section body link
+			* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+			*/
+			.bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:none;
+			}
+
+			.bodyContent img{
+				display:inline;
+				height:auto;
+				/*max-width:560px;*/
+			}
+
+			/* ========== Column Styles ========== */
+
+			/*.templateColumnContainer{width:260px;}*/
+			.templateColumnContainer table{
+				width:100%;
+			}				
+
+			/**
+			* @tab Columns
+			* @section column style
+			* @tip Set the background color and borders for your email's column area.
+			*/
+			#templateColumns{
+				/*@editable*/
+				/*@editable border-top:1px solid #FFFFFF;*/
+				/*@editable border-bottom:1px solid #CCCCCC;*/
+			}
+			
+			.listdear{
+				padding-bottom:15px;
+			}
+			/**
+			* @tab Columns
+			* @section left column text
+			* @tip Set the styling for your email's left column content text. Choose a size and color that is easy to read.
+			*/
+			.leftColumnContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				padding:0px 10px 10px 10px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Columns
+			* @section left column link
+			* @tip Set the styling for your email's left column content links. Choose a color that helps them stand out from your text.
+			*/
+			.leftColumnContent a:link, .leftColumnContent a:visited, /* Yahoo! Mail Override */ .leftColumnContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/**
+			* @tab Columns
+			* @section right column text
+			* @tip Set the styling for your email's right column content text. Choose a size and color that is easy to read.
+			*/
+			.rightColumnContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				padding:0px 10px 10px 10px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Columns
+			* @section right column link
+			* @tip Set the styling for your email's right column content links. Choose a color that helps them stand out from your text.
+			*/
+			.rightColumnContent a:link, .rightColumnContent a:visited, /* Yahoo! Mail Override */ .rightColumnContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:none;
+			}
+
+			.leftColumnContent img, .rightColumnContent img{
+				display:inline;
+				height:auto;
+				max-width:260px;
+			}
+
+			/* ======== custom Styles ======== */
+			.title-nl{
+				margin:48px 0px 10px 8px;
+				font-weight:normal;
+			}
+			#imglogonl-table{
+				text-align: right;
+				padding: 15px 20px 0px 20px;
+			}
+			#imglogonl-table table tr a img{
+				margin-right: 5px;
+			}
+			.templateColumnContainer .boxcontent__table{
+				/*width:270px;*/
+				height:420px;
+				overflow:hidden;
+				display: block;				
+				background:#fff;				
+				border:1px solid #f1f1f1;
+			}	
+			.boxcontent{
+				padding:10px;
+			}
+			.leftColumnContent h5,
+			.rightColumnContent h5{
+				height:40px;
+				overflow:hidden;
+			}
+			.leftColumnContent p,
+			.rightColumnContent p{
+				height:150px;
+				overflow:hidden;
+			}
+			/*
+			.listbg img{
+				
+			}*/
+			.listbg{
+				float:left;
+			}
+			.listbg > img{
+				margin-bottom:10px;
+			}
+			.listbg > h2{
+				color:#a79675;
+				font-size: 22px;
+				font-weight:normal;
+				font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+			}
+			.listbg > p{
+				color:#414042;
+				font-size: 11px;
+				font-weight:normal;
+				font-family: arial;
+				text-align: left;
+				line-height: 18px;
+			}
+			.listbg > ul{
+				margin:0 0 0 15px; padding:0;
+				list-style-type: disc; 
+			}
+			.listbg > ul > li{
+				color:#414042;
+				font-size: 11px;
+				font-weight:normal;
+				font-family: arial;
+				text-align: left;
+				list-style-type: disc;
+				margin:0;
+				line-height: 18px;
+			}
+
+			.buttonwrapper--ul{
+				width:300px;
+				margin:0; padding:0;
+				list-style: none;
+				display: inline-block;
+			}
+			.buttonwrapper--ul > .buttonwrapper--li{
+				float:left;
+				display: inline-block;
+				background:#a79675;
+				margin:10px 15px 25px 15px;
+			}
+			.buttonwrapper--ul > .buttonwrapper--li > .buttonwrapper--a{
+				display:block;
+				padding:10px 25px;
+				color:#fff;
+				font-size: 12px;
+				font-weight:normal;
+				font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+				
+			}
+
+			.listmenu{
+				position:relative;
+				background:#a79575;
+				height:239px;
+				/*width:32%;*/
+			}
+			.listmenu ul{
+				font-size:11px;
+				font-family:arial;
+				margin:0;
+				padding:3px 15px 0px 15px;
+			}
+			.listmenu ul li{
+				padding:1px 0px;
+				/*border-bottom:1px solid #ddd;*/
+			}
+			.listmenu ul li a{
+				color:#fff;
+			}
+			a.button-style1{
+				font-size:9px;
+				font-family:Open sans;
+				padding:6px 16px;
+				margin:0;
+				position: relative;
+				text-decoration:none;
+				color:#fff;
+				background-color: #b5a080;
+				background-repeat: repeat-x;
+				background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#b5a080), to(#877455));
+				background: -webkit-linear-gradient(top, #b5a080, #877455);
+				background: -moz-linear-gradient(top, #b5a080, #877455);
+				background: -ms-linear-gradient(top, #b5a080, #877455);
+				background: -o-linear-gradient(top, #b5a080, #877455);
+			}
+			.footeraddrs p{
+				font-family: TimesNewRoman;
+				font-size:11px;
+				line-height:18px;
+				margin:0;
+				padding:0;
+				letter-spacing:1px;
+			}
+
+			.footer__copy{
+				font-family: TimesNewRoman;
+				font-size:11px;
+				line-height:normal;
+				font-weight:600;
+				color:#231f20;
+				letter-spacing: 0.5px;
+			}
+
+			.footer__unsubc{
+				line-height: 15px;
+				font-family: Arial;
+				font-size: 9px;
+				color:#6f7071;
+			}
+
+			.footer__unsubc a{
+				font-family: arial;
+				font-size: 10px;
+				color:#568282;
+				font-weight:700;
+			}
+		</style>
+    </head>
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+    	<center>
+        	<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+            	<tr>
+                	<td align="center" valign="top" id="bodyCell">
+                    	<!-- BEGIN TEMPLATE // -->
+                    	<table border="0" cellpadding="0" cellspacing="0" id="templateContainer">
+                        	<tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN PREHEADER // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templatePreheader">
+                                        <tr>
+                                            <td valign="top" class="preheaderContent" style="padding-top:30px;" mc:edit="preheader_content00">
+                                                <i>Having trouble viewing this email? <a href="#" target="_blank" style="color:#568282;font-weight:bold;text-decoration:none;">Click here</a></i>
+                                            </td>
+                                            <td valign="top" class="preheaderContent" style="padding-top:20px;" mc:edit="preheader_content00">
+                                                <ul class="preheaderContent--ul">
+                                                	<li class="preheaderContent--li">
+                                                		<a href="https://www.facebook.com/AyanaResort" class="preheaderContent--a" target="_blank"><img src="images/fb-mini.png" alt="" class="preheaderContent--img" /></a>
+                                                	</li>
+                                                	<li class="preheaderContent--li">
+                                                		<a href="http://www.twitter.com/ayanaresort" class="preheaderContent--a" target="_blank"><img src="images/twit-mini.png" alt="" class="preheaderContent--img" /></a>
+                                                	</li>
+                                                	<li class="preheaderContent--li">
+                                                		<a href="http://instagram.com/ayanaresort" class="preheaderContent--a" target="_blank"><img src="images/instagram-mini.png" alt="" class="preheaderContent--img" /></a>
+                                                	</li>
+                                                	<li class="preheaderContent--li">
+                                                		<a href="https://www.youtube.com/channel/UC_kpXI5okMObng4qxYZP09g" class="preheaderContent--a" target="_blank"><img src="images/youtube-mini.png" alt="" class="preheaderContent--img" /></a>
+                                                	</li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END PREHEADER -->
+                                </td>
+                            </tr>
+                            <tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN COLUMNS // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateColumns" style="height:10px;">
+                                    </table>
+                                    <!-- // END COLUMNS -->
+                                </td>
+                            </tr>
+
+                            <!-- banner -->
+                        	<tr>
+                            	<td align="center" valign="top">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>                                        	
+                                            <td valign="top" class="bodyContent-img" mc:edit="body_content" style="border-top: 3px solid #f1f0e8;">
+                                            	<div class="listbg" style="width:100%;">
+                                            		<img class="img-bglist" src="images/imgluxurymain1.png" style="width:100%;height:100%;">
+                                            	</div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+
+                            <!-- post1 -->
+                            <tr>
+                            	<td align="center" valign="top">
+                                    <div class="listbg" style="float:left; width:50%; padding:22px 10px 10px 10px;">
+                                    	<img class="img-bglist" src="images/imgluxury1.png" style="width:100%;height:auto;">
+                                    	<img class="img-bglist" src="images/imgluxury2.png" style="width:100%;height:auto;">
+                                	</div>
+                                	<div class="listbg" style="float:left; width:45%;">
+                                    	<h2>AYANA's Little Luxires</h2>
+                                    	<p>Exclusive benefits for all guests of The Villas at AYANA Resort:</p>
+
+ 										<ul>
+ 											<li>Return airport transfers (only for direct bookings via hotel website, phone or email)</li>
+ 											<li>‘Butler phone’ upon check-in for 24-hour personalized service</li>
+ 											<li>Guaranteed reservation for sunset at Rock Bar, Bali’s most spectacular venue for sundowners</li>
+ 											<li>Choice of 30-minute Balinese massage or sunrise yoga</li>
+ 											<li>Romantic table set-up with any in-villa dinner order</li>
+ 											<li>Late check-out</li>
+ 											<li>WiFi</li>
+ 											<li>Flower bath upon arrival</li>
+ 											<li>Buggy service around the resort</li>
+ 											<li>Unlimited golf-putting and tennis</li>
+ 											<li>Personal Assistant service before arrival to prepare for your stay</li>
+ 										</ul>
+                                	</div>
+                                </td>                                
+                            </tr>
+                            <tr>
+                            	<td align="center" valign="top">
+                                	<ul class="buttonwrapper--ul">
+                                		<li class="buttonwrapper--li"><a href="https://bookings.ihotelier.com/AYANA-Resort-and-Spa-Bali/bookings.jsp?HotelID=72655&LanguageID=1&Rooms=1&Adults=2&Children=0&DateIn=10%2F23%2F2014&DateOut=10%2F23%2F2014" class="buttonwrapper--a" target="_blank">BOOK NOW</a></li>
+                                		<li class="buttonwrapper--li"><a href="#" class="buttonwrapper--a" target="_blank">SHARE NOW</a></li>
+                                	</ul>
+                                </td>
+                            </tr>
+
+                            <!-- footer -->
+                            <tr style="border-top:5px solid #a79675;">
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN COLUMNS // -->
+                                    <table border="0" cellpadding="0" cellspacing="20" width="100%" id="templateColumns" style="">
+                                    	<tr mc:repeatable>
+                                        	<td align="center" valign="top" class="" style="padding:12px 0px 0px 0px;">
+                                            	<!-- BEGIN FOOTER // -->
+			                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="" style="background:#fff;">
+			                                        <tr>
+			                                        	<td class="footeraddrs" style="text-align:center;padding-bottom:20px;">
+			                                        		<br>
+				                                            <p style="">AYANA Resort and Spa BALI | <a href="http://www.ayanaresort.com" target="_blank" style="color:#38b9e7;">www.ayanaresort.com</a></p>
+
+				                                            <p style="">RIMBA Jimbaran BALI | <a href="http://www.rimbajimbaran.com" target="_blank" style="color:#007b47;">www.rimbajimbaran.com</a></p>
+
+				                                            <p style="">Karang Mas Estate</p>
+
+				                                            <p style="">Jalan Karang Mas Sejahtera, Jimbaran, BALI</p>
+
+				                                            <p>Indonesia</p>
+
+				                                            <p style="margin-top:5px;color:#231f20;">T. <font style="font-size:12px;">62.361.70.2222</font></p>
+				                                            <p style="color:#231f20;">Email: <font style="font-size:12px;"><a href="mailto:reservation@ayanaresort.com" target="_blank" style="color:#231f20;">reservation@ayanaresort.com</a> | <a href="mailto:booking@rimbajimbaran.com" target="_blank" style="color:#231f20;">booking@rimbajimbaran.com</font></a></p>
+			                                        	</td>
+			                                        </tr> 
+			                                    </table>
+			                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="" style="margin-top:-10px;">
+			                                        <tr>
+			                                            <td valign="top" class="footerContent" style="" mc:edit="footer_content02">
+			                                            	<center>			                                            		
+			                                            		<p class="footer__copy" style="">COPYRIGHT &copy; AYANA RESORT AND SPA, ALL RIGHTS RESERVED</p>
+			                                            		<!--
+			                                            		<p class="footer__copy" style="">Copyright &copy; Ayana Resort And Spa, All Rights Reserved.</p>
+			                                            		-->
+				                                            	<p class="footer__unsubc">
+				                                            		 If you do not wish to receive information on our promotions and offers,<br>
+				                                            		<a href="http://zmaildir.com/cgi-bin/unsub.cgi?mid=v00a08d05006c00q00b00u00s00000200k00a00" class="" target="_blank" style="color:#568282;font-weight:bold;text-decoration:none;">Unsubscribe</a>
+				                                            		or reply to this email and place 'unsubscribe' on the subject line.
+				                                            	</p>				                                            	
+				                                            	<br>
+			                                            	</center>
+			                                            </td>
+			                                        </tr>
+			                                    </table>
+			                                    <!-- // END FOOTER -->
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END COLUMNS -->
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>

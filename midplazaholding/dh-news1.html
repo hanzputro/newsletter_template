@@ -1,0 +1,587 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Ayana &amp; Rimba - Newsletter</title>
+        <style type="text/css">
+			/* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
+			#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+			.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+			.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+			body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;list-style-type: none;} /* Prevent WebKit and Windows mobile changing default text sizes */
+			table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+			img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+			/* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
+			body{margin:0; padding:0;}
+			img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+			table{border-collapse:collapse !important;}
+			body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
+
+			/* /\/\/\/\/\/\/\/\/ TEMPLATE STYLES /\/\/\/\/\/\/\/\/ */
+
+			/* ========== Page Styles ========== */
+
+			#bodyCell{padding:10px 0px;}
+			#templateContainer{width:600px;background:#fff;}
+
+			/**
+			* @tab Page
+			* @section background style
+			* @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+			* @theme page
+			*/
+			body, #bodyTable{
+				/*@editable background:#fff; */
+			}
+
+			/**
+			* @tab Page
+			* @section background style
+			* @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+			* @theme page
+			*/
+			#bodyCell{
+				/*@editable*/ border-top:4px solid #fff;
+			}
+
+			/**
+			* @tab Page
+			* @section email border
+			* @tip Set the border for your email.
+			*/
+			#templateContainer{
+				/*@editable*/ border:1px solid #f1f1f1;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 1
+			* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+			* @style heading 1
+			*/
+			a{
+				text-decoration: none;
+			}
+			p{
+				/*@editable*/ /*color:#414042 !important;*/
+				display:block;
+				/*@editable*/ font-family: arial;
+				/*@editable*/ font-size:11px;
+				/*@editable*/ font-style:normal;
+				/*@editable*/ line-height:17px;
+				/*@editable*/ letter-spacing:normal;
+			}
+			h1{
+				/*@editable*/ /*color:#a79675 !important;*/
+				display:block;
+				/*@editable*/ font-family: TimesNewRoman;
+				/*@editable*/ font-size:34px;
+				/*@editable*/ font-style:normal;
+				/*@editable*/ font-weight:700;
+				/*@editable*/ line-height:normal;
+				/*@editable*/ letter-spacing:0.5px;
+				margin:10px 0px 0px 0px;
+			}
+
+			h5{
+				/*@editable*/ /*color:#a79675 !important;*/
+				display:block;
+				/*@editable*/ font-family: Arial;
+				/*@editable*/ font-size:17px;
+				/*@editable*/ font-style:normal;
+				font-weight:100;
+				/*@editable*/ letter-spacing:normal;
+				margin:0px 0px 0px 0px;
+			}
+
+			/* ========== Header Styles ========== */
+
+			/**
+			* @tab Header
+			* @section preheader style
+			* @tip Set the background color and bottom border for your email's preheader area.
+			* @theme header
+			*/
+			#templatePreheader{
+				/*@editable*/ background-color:#fff;
+				/*@editable*/ border-bottom:1px solid #fff;
+				margin:0px 0px 15px 0px;
+			}
+
+			/**
+			* @tab Header
+			* @section preheader text
+			* @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+			*/
+			.preheaderContent{
+				/*@editable*/ color:#9b9ca0;
+				/*@editable*/ font-family:arial;
+				/*@editable*/ font-size:9px;
+				/*@editable*/ line-height:125%;
+				/*@editable*/ text-align:center;
+			}
+
+			/**
+			* @tab Header
+			* @section preheader link
+			* @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+			*/
+			.preheaderContent a:link, .preheaderContent a:visited, /* Yahoo! Mail Override */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#f37422;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:none;
+			}
+
+			/**
+			* @tab Header
+			* @section header style
+			* @tip Set the background color and borders for your email's header area.
+			* @theme header
+			*/
+			#templateHeader{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-top:1px solid #FFFFFF;
+				/*@editable*/ border-bottom:1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Header
+			* @section header text
+			* @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+			*/
+			.headerContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:20px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ padding-top:0;
+				/*@editable*/ padding-right:0;
+				/*@editable*/ padding-bottom:0;
+				/*@editable*/ padding-left:0;
+				/*@editable*/ text-align:left;
+				/*@editable*/ vertical-align:middle;
+			}
+
+			/**
+			* @tab Header
+			* @section header link
+			* @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+			*/
+			.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			#headerImage{
+				height:auto;
+				max-width:100%;
+			}
+
+			/* ========== Body Styles ========== */
+
+			/**
+			* @tab Body
+			* @section body style
+			* @tip Set the background color and borders for your email's body area.
+			*/
+			#templateBody{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-top:1px solid #FFFFFF;
+				/*@editable*/ border-bottom:1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Body
+			* @section body text
+			* @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+			* @theme main
+			*/
+			
+			.bodyContent{
+				/*@editable*/ color:#fff;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:16px;
+				/*@editable*/ line-height:150%;
+				padding:0px 20px;
+				/*@editable*/ text-align:left;
+			}
+			.menu-header{
+				font-family: sans-serif;
+				background:#836553;				
+				font-size:12px;
+				font-weight:normal;
+				text-align: center;
+				padding:20px 0px;
+				margin-bottom:-15px;
+			}
+			.menu-header a{
+				color:#ede6e1;
+				font-weight:normal;
+			}
+			.bodyContent-img{
+				margin:0;
+				padding:0;
+			}
+			.bodyContent-div p{
+				color:#b29459;
+				font-size:11px;
+			}
+
+			/**
+			* @tab Body
+			* @section body link
+			* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+			*/
+			.bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:none;
+			}
+
+			.bodyContent img{
+				display:inline;
+				height:auto;
+				/*max-width:560px;*/
+			}
+
+			/* ========== Column Styles ========== */
+
+			/*.templateColumnContainer{width:260px;}*/
+			.templateColumnContainer table{
+				width:100%;
+			}				
+
+			/**
+			* @tab Columns
+			* @section column style
+			* @tip Set the background color and borders for your email's column area.
+			*/
+			#templateColumns{
+				/*@editable*/
+				/*@editable border-top:1px solid #FFFFFF;*/
+				/*@editable border-bottom:1px solid #CCCCCC;*/
+			}
+
+			/**
+			* @tab Columns
+			* @section left column text
+			* @tip Set the styling for your email's left column content text. Choose a size and color that is easy to read.
+			*/
+			.leftColumnContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				padding:0px 10px 10px 10px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Columns
+			* @section left column link
+			* @tip Set the styling for your email's left column content links. Choose a color that helps them stand out from your text.
+			*/
+			.leftColumnContent a:link, .leftColumnContent a:visited, /* Yahoo! Mail Override */ .leftColumnContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/**
+			* @tab Columns
+			* @section right column text
+			* @tip Set the styling for your email's right column content text. Choose a size and color that is easy to read.
+			*/
+			.rightColumnContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				padding:0px 10px 10px 10px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Columns
+			* @section right column link
+			* @tip Set the styling for your email's right column content links. Choose a color that helps them stand out from your text.
+			*/
+			.rightColumnContent a:link, .rightColumnContent a:visited, /* Yahoo! Mail Override */ .rightColumnContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:none;
+			}
+
+			.leftColumnContent img, .rightColumnContent img{
+				display:inline;
+				height:auto;
+				max-width:260px;
+			}
+
+			/* ======== custom Styles ======== */
+			.title-nl{
+				margin:48px 0px 10px 8px;
+				font-weight:normal;
+			}
+			#imglogonl-table{
+				text-align: right;
+				padding: 15px 20px 0px 20px;
+			}
+			#imglogonl-table table tr a img{
+				margin-right: 5px;
+			}
+			.templateColumnContainer .boxcontent__table{
+				/*width:270px;*/
+				height:420px;
+				overflow:hidden;
+				display: block;				
+				background:#fff;				
+				border:1px solid #f1f1f1;
+			}	
+			.boxcontent{
+				padding:10px;
+			}
+			.leftColumnContent h5,
+			.rightColumnContent h5{
+				height:40px;
+				overflow:hidden;
+			}
+			.leftColumnContent p,
+			.rightColumnContent p{
+				height:150px;
+				overflow:hidden;
+			}
+			.listbg{
+				float:left;				
+				width:199px;
+				text-align:left;
+			}
+			.listbg .img-bglist{
+				width:193px;
+				height:126px;				
+			}
+			.more-info{
+				text-align: left;
+				font-family: sans-serif;
+				font-size:15px;
+				margin:0px 0px 10px 10px;
+				color:#969695;
+			}
+			.more-info a{
+				color:#f47523;
+				font-weight:700;
+			}
+			.number-maps{
+				font-family: sans-serif;
+				font-size:58px;
+				color:#646564;
+				font-weight:700;
+				margin:15px 0px;
+			}
+				
+			.listmenu{
+				position:relative;
+				background:#a79575;
+				height:239px;
+				/*width:32%;*/
+			}
+			.listmenu ul{
+				font-size:11px;
+				font-family:arial;
+				margin:0;
+				padding:3px 15px 0px 15px;
+			}
+			.listmenu ul li{
+				padding:1px 0px;
+				/*border-bottom:1px solid #ddd;*/
+			}
+			.listmenu ul li a{
+				color:#fff;
+			}
+			a.button-style1{
+				font-size:9px;
+				font-family:Open sans;
+				padding:6px 16px;
+				margin:0;
+				position: relative;
+				text-decoration:none;
+				color:#fff;
+				background-color: #b5a080;
+				background-repeat: repeat-x;
+				background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#b5a080), to(#877455));
+				background: -webkit-linear-gradient(top, #b5a080, #877455);
+				background: -moz-linear-gradient(top, #b5a080, #877455);
+				background: -ms-linear-gradient(top, #b5a080, #877455);
+				background: -o-linear-gradient(top, #b5a080, #877455);
+			}
+			.footeraddrs h5{
+				font-family: sans-serif;
+				color:#b29659;
+				font-size:13px;
+				font-weight: bolder;
+				margin-bottom:8px;
+			}
+			.footeraddrs p{
+				font-family: sans-serif;
+				color:#96989b;
+				font-size:11px;
+				line-height:18px;
+			}
+			.footeraddrs p a,
+			.footeraddrs p font {
+				color:#f37523;
+				font-weight:700;
+			}
+
+			.footeraddrs .footer__copy{
+				font-family: arial;
+				font-size:10px;
+				line-height:normal;
+				font-weight:lighter;
+				color:#837667;
+			}
+
+			.footeraddrs .footer__unsubc{
+				line-height: 13px;
+				font-family: Arial;
+				font-size: 9px;
+				color:#626568;
+			}
+
+			.footeraddrs .footer__unsubc a{
+				font-family: arial;
+				font-size: 10px;
+				color:#f07425;
+				font-weight:bold;
+				text-decoration:none;
+			}
+		</style>
+    </head>
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+    	<center>
+        	<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+            	<tr>
+                	<td align="center" valign="top" id="bodyCell">
+                    	<!-- BEGIN TEMPLATE // -->
+                    	<table border="0" cellpadding="0" cellspacing="0" id="templateContainer">
+                        	<tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN PREHEADER // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templatePreheader">
+                                        <tr>
+                                            <td valign="top" class="preheaderContent" style="padding-top:10px;" mc:edit="preheader_content00">
+                                                <i>Having trouble viewing this email? <a href="#" target="_blank" style="font-weight:bold;text-decoration:none;color:#f37422;">Click here</a></i>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END PREHEADER -->
+                                </td>
+                            </tr>
+                            <tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN COLUMNS // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateColumns" style="">
+                                    	<tr mc:repeatable>
+                                        	<td class="templateColumnContainer" style="padding:0px 0px 0px 0px;">
+                                            	<table border="0" cellpadding="0" cellspacing="0" width="100%" style="border:none;">
+                                                	<tr style="">
+                                                		<img class="img-bglist" src="images/logo-dh1.jpg" style="margin:0px 0px 0px 0px;">
+                                                		<p class="more-info">For more information, please visit <a href="http://www.delonixhotel.com" target="_blank">www.delonixhotel.com</a></p>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END COLUMNS -->
+                                </td>
+                            </tr>
+
+                            <!-- banner -->
+                        	<tr>
+                            	<td align="center" valign="top">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    	<tr>
+                                    		<td colspan="1" valign="top" class="menu-header" mc:edit="body_content"><a href="http://www.delonixhotel.com/index.php/en-us/about-us" target="_blank">ABOUT US</a></td>
+                                    		<td colspan="1" valign="top" class="menu-header" mc:edit="body_content"><a href="http://www.delonixhotel.com/index.php/en-us/apartment" target="_blank">HOTELS</a></td>
+                                    		<td colspan="1" valign="top" class="menu-header" mc:edit="body_content"><a href="http://www.delonixhotel.com/index.php/en-us/meetings-and-events/meeting-rooms" target="_blank">MEETINGS AND EVENTS</a></td>
+                                    		<td colspan="1" valign="top" class="menu-header" mc:edit="body_content"><a href="http://www.delonixhotel.com/index.php/en-us/restaurant-and-lounge/restaurant" target="_blank">RESTAURANT AND LOUNGE</a></td>
+                                    		<td colspan="1" valign="top" class="menu-header" mc:edit="body_content"><a href="http://www.delonixhotel.com/index.php/en-us/facilities/japanese-style-bath" target="_blank">FACILITIES</a></td>
+                                    	</tr>
+                                    	<div style="clear:both;"></div>
+                                        <tr>                                        	
+                                            <td colspan="5" valign="top" class="bodyContent-img" mc:edit="body_content">
+                                            	<div class="listbg" style="width:100%;">
+                                            		<img class="img-bglist" src="images/banner-dh1.jpg" style="width:100%;height:100%;">
+                                            	</div>
+                                            </td>
+                                        </tr>
+                                        <tr>                                        	
+                                            <td colspan="5" class="bodyContent-img" mc:edit="body_content" stle="">
+                                            	<div class="listbg" style="margin:4px 0px 0px 0px;">
+                                            		<img class="img-bglist" src="images/minibanner-dh1.jpg" style="margin-left:5px;">
+                                            	</div>
+                                            	<div class="listbg" style="margin:4px 0px 0px 0px;">
+                                            		<img class="img-bglist" src="images/minibanner-dh2.jpg" style="margin-left:4px;">
+                                            	</div>
+                                            	<div class="listbg" style="margin:4px 0px 0px 0px;">
+                                            		<img class="img-bglist" src="images/minibanner-dh3.jpg" style="margin-left:3px;">
+                                            	</div>
+                                            </td>
+                                        </tr>
+                                        <tr>                                        	
+                                            <td colspan="5" valign="top" class="bodyContent-img" mc:edit="body_content">
+                                            	<div class="listbg" style="width:100%;text-align:center;">
+                                            		<img class="img-bglist" src="images/maps-dh1.jpg" style="width:381px;height:193px;margin:20px 0px 20px 0px;">
+                                            		<p class="number-maps">0267-644-370</p>
+                                            	</div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>                          
+
+                            <!-- footer -->
+                            <tr style="">
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN COLUMNS // -->
+                                    <table border="0" cellpadding="0" cellspacing="20" width="100%" id="templateColumns" style="">
+                                    	<tr mc:repeatable>
+                                        	<td align="center" valign="top" class="" style="padding:17px 0px 0px 0px;">
+                                            	<!-- BEGIN FOOTER // -->
+			                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="" style="">
+			                                        <tr>
+			                                        	<td class="footeraddrs" style="text-align:center;padding-bottom:10px;">
+															<p style=""><font>DELONIX</font> | Komplek Sedana, Sukaluyu Teluk Jambe, Karawang 41361, Jawa Barat, Indonesia<br>
+															Tel: <font>0267-644-370/371</font> | Fax: 0267-644-374 | Email: <a href="mailto:info@delonixhotel.com" target="_blank">info@delonixhotel.com</a><br>
+															<a href="http://www.delonixhotel.com" target="_blank">www.delonixhotel.com</a></p>
+
+															<p class="footer__copy" style="">COPYRIGHT &copy; 2010. DELONIX. ALL RIGHTS RESERVED</p>
+			                                            	<!--
+			                                            	<p class="footer__copy" style="">Copyright &copy; Ayana Resort And Spa, All Rights Reserved.</p>
+			                                            	-->
+				                                            <p class="footer__unsubc">
+				                                            	If you do not wish to receive information on our promotions and offers,<br>
+				                                            	<a href="http://zmaildir.com/cgi-bin/unsub.cgi?mid=v00a08d05006c00q00b00u00s00000200k00a00" class="" target="_blank" style="">Unsubscribe Now</a> or reply to this email and place 'unsubscribe' on the subject line.
+				                                            </p>				                                            	
+				                                            <br>
+			                                        	</td>
+			                                        </tr> 
+			                                    </table>
+			                                    <!-- // END FOOTER -->
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END COLUMNS -->
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
